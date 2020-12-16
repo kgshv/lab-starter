@@ -31,15 +31,15 @@ steps:
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 2: EDIT HERE -INTERNAL COMMENT FOR STEP 2
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+- title: Step 2. Text structure # the title of the step, shown to the learner in the course progress page
+  description: "Let's learn about the core building blocks of any text"  # a description of the step, shown to the learner in the course progress page
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 3: EDIT HERE - INTERNAL COMMENT FOR STEP 3
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+ - title: Step 3. Writing the article # the title of the step, shown to the learner in the course progress page
+  description: Learn about the process of writing the article # a description of the step, shown to the learner in the course progress page
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
