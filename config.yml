@@ -1,14 +1,14 @@
-title: # a name for your Learning Lab course
-tagline: # a short description for your Learning Lab course, displayed on the course catalog
-description: # a longer description for your Learning Lab course, displayed on the course's landing page
+title: How to Weite a Killer Technical Article # a name for your Learning Lab course
+tagline: Learn key steps you need to write a great and engaging technical article # a short description for your Learning Lab course, displayed on the course catalog
+description: Learn key steps you need to write a great and engaging technical article # a longer description for your Learning Lab course, displayed on the course's landing page
 
 # Repository setup
 # The following section template information for the repository
 # This will be used when the repository is crated for each individual learner
 
 template:
-  name: # the name of the repository when it is created for the learner
-  repo: # the name of the template repository from which to clone for the learner
+  name: My Tech Article # the name of the repository when it is created for the learner
+  repo: tech-article-lab # the name of the template repository from which to clone for the learner
 
 # `before` block
 # Actions to take place after the learner registers, but before they start interacting with their repo
@@ -24,9 +24,9 @@ before:
 
 steps:
 # Step 1: EDIT HERE - INTERNAL COMMENT DESCRIBING STEP 
-- title: # the title of the step, shown to the learner in the course progress page
-  description: # a description of the step, shown to the learner in the course progress page
-  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+- title: Step 1. Where do I start? # the title of the step, shown to the learner in the course progress page
+  description: Things to think about before you start writing anything # a description of the step, shown to the learner in the course progress page
+  event: pull_request_review_comment # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
