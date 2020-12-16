@@ -7,8 +7,8 @@ description: Learn key steps you need to write a great and engaging technical ar
 # This will be used when the repository is crated for each individual learner
 
 template:
-  name:     # the name of the repository when it is created for the learner
-  repo:     # the name of the template repository from which to clone for the learner
+  name: Just a temp thing here # the name of the repository when it is created for the learner
+  repo: just-a-temp-thing # the name of the template repository from which to clone for the learner
 
 # `before` block
 # Actions to take place after the learner registers, but before they start interacting with their repo
@@ -28,7 +28,8 @@ steps:
   description: Things to think about before you start writing anything # a description of the step, shown to the learner in the course progress page
   event: pull_request_review_comment # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
   actions: # a list of the actions that will occur when the step is triggered by an event
-  - type: # the type of action, full list at https://lab.github.com/docs/actions
+  - type: respond # the type of action, full list at https://lab.github.com/docs/actions
+  - with: step-one-response.md
 
 # Step 2: EDIT HERE -INTERNAL COMMENT FOR STEP 2
 - title: Step 2. Text structure # the title of the step, shown to the learner in the course progress page
