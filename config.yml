@@ -7,8 +7,8 @@ description: Learn key steps you need to write a great and engaging technical ar
 # This will be used when the repository is crated for each individual learner
 
 template:
-  name: My Tech Article # the name of the repository when it is created for the learner
-  repo: tech-article-lab # the name of the template repository from which to clone for the learner
+  name:     # the name of the repository when it is created for the learner
+  repo:     # the name of the template repository from which to clone for the learner
 
 # `before` block
 # Actions to take place after the learner registers, but before they start interacting with their repo
